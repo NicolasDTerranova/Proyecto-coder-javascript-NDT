@@ -70,6 +70,6 @@ for (let i = 15; i <= 40; i++) {
     console.log(PRECIO_CLASES + " es el costo de hora de clase multiplicado por la edad de " + i + " = " + precio + " es el valor a cobrarle a un estudiante de esta edad");
 }
 
-// MÉTODOS (para buscary filtrar)
+// MÉTODOS (para buscar el precio por edad 40 y filtrar por mayores a 15)
 console.log(buscarPrecioPorEdad(40));
-console.log(filtrarPreciosPorEdadMinima(15)); // Filtra los precios para edades mayores o iguales a 17
+console.log(filtrarPreciosPorEdadMinima(15));
